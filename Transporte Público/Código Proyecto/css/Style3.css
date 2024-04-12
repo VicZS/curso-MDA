@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2abab;
+}
+
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+img{
+    display: block;
+    margin: 2vw;
+    height: 10vw;
+}
+
+.icono_menu{
+    height: 8vw;
+    width: 10vw;
+}
+
+.map{
+    width: 100%;
+    height: 93vh;
+}
+
+button{
+    background-color: #f2abab00;
+    border-radius:10px;
+    border: #f2abab00;
+}

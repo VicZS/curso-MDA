@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.formulario_inicio{
+    position: absolute;
+    text-align: center;
+    padding-top: 10%;
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.formulario_inicio h2{
+    padding-top: 10vw;
+    text-align: center;
+    color: white;
+}
+
+.formulario_inicio h4{
+    text-align: center;
+    color: white;
+}
+
+.sesion{
+    padding: 3vw 3vw 6vw 3vw;
+}
+
+.contraseña{
+    padding-bottom: 6vw;
+}
+
+.sesion input{
+    width:250px;
+    height: 9vw;
+    border-radius: 5vw;
+    padding-left: 2vw;
+    font-weight: bold;
+}
+
+.contraseña input{
+    width:250px;
+    height: 9vw;
+    border-radius: 5vw;
+    padding-left: 2vw;
+    font-weight: bold;
+}
+
+.codigo input{
+    width:250px;
+    height: 9vw;
+    border-radius: 5vw;
+    padding-left: 2vw;
+    font-weight: bold;
+    font-size:78%;
+}
+
+.olvido_contraseña{
+    padding: 3vw 3vw 4vw 3vw;
+}
+.olvido_contraseña a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.ingresar a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.crear_cuenta a{
+    color: white;
+    position: absolute; 
+    bottom: 2vw; 
+    right: 6vw;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.crear a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.warning p{
+    color: red;
+}

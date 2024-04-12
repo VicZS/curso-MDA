@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="/css/Style3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="location.href='Menu.html'">
+                <img src="img/icono_menu.png" alt="icono_menu" class="icono_menu">
+            </button>
+            <div class="derecha">
+                <button>
+                    <img src="img/icono_busqueda.png" alt="icono_busqueda" >
+                </button>
+                <button>
+                    <img src="img/icono_notificaciones.png" alt="icono_notificaciones">
+                </button>
+            </div>
+        </nav>
+        <div id="map" class="map">
+            
+        </div>
+    </header>
+    <script src="js/mapa_inicio.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+</html>
