@@ -6,8 +6,11 @@
     <title>Mapa</title>
     <link rel="stylesheet" href="/css/Style3.css">
 </head>
+ <!--Realiza la presentacion del mapa ejecutando un script-->
+
 <body>
     <header>
+         <!--barra de navegacion para ir al menu, realizar busqueda y ver notificaciones-->
         <nav>
             <button onclick="location.href='Menu.html'">
                 <img src="img/icono_menu.png" alt="icono_menu" class="icono_menu">
@@ -25,7 +28,9 @@
             
         </div>
     </header>
+     <!-- Llama a la ejecucion del script mapa_inicio-->
     <script src="js/mapa_inicio.js"></script>
+     <!--Llama a la ejecucion del script de la api utilizada para la visualizacion del mapa-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 </html>
