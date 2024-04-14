@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.formulario_inicio h2{
+    color: white;
+}
+
+.formulario_inicio h4{
+    color: white;
+}
+
+.style_inputs input{
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.codigo input{
+    font-weight: bold;
+}
+
+
+
+.olvido_contraseña a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.ingresar a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.crear_cuenta a{
+    color: white; 
+    text-decoration: none;
+    font-size: larger;
+}
+
+.crear a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.warning p{
+    color: red;
+}

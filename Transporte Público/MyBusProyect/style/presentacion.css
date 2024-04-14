@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(247, 248, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #416ce2;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold
+}
+
+.boton1{
+
+    border-color: #fcd381;
+    border-radius: 5vw;
+    color: #416ce2;
+    font-size: larger;
+    font-weight: bold
+}
+
+.boton2{
+    background-color: #fcd381;
+    border-radius: 5vw;
+    color: #416ce2;
+    font-size: larger;
+    font-weight: bold
+}
+

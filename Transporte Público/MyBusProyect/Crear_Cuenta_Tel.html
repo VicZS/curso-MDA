@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="/css/Intro.css">
+</head>
+ <!-- Crecion del formulario para crear una cuenta usando un numero telefonico-->
+<body>
+    <div class="formulario_inicio">
+        <img src="/img/icono_ubicaciones.png" alt="icono_ubicaciones">
+        <h2>CREAR CUENTA</h2>
+        <form action="post">
+            <div class="sesion">
+                <input type="number" placeholder="INGRESA TU NUMERO DE TELEFONO" required>
+            </div>
+            <div class="contraseña">
+                <input type="password" placeholder="CREAR CONTRASEÑA" required>
+            </div>
+            <!--Este div mostrara errores como de contraseña no valida o usuario  registrado-->
+            <div class="warning">
+                <p>*Nota</p>
+            </div>
+            <div class="crear">
+                <strong><a href="#">CREAR</a></strong>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
